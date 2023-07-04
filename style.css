@@ -4,8 +4,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-    background-color: #eee;   
+body { 
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -14,8 +18,14 @@ nav {
     background-color: #fff;
 }
 
-ul {
+.nav-wrapper {
+    margin: 0 auto 0 60px;
+    width: 100%;
+    background-color: aquamarine;
+}
 
+ul {
+    margin-left: 60px;
 }
 
 ul li {
@@ -29,10 +39,31 @@ ul li a {
     display: block;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 700;
     color: #1e1e1e;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: purple;
 }
+
+.profile-pic {
+    float: left;
+    margin: 100px;
+    border-radius: 50%;
+ }
+
+ h1 {
+    float: centre;
+    padding-top: 200px;
+    font-size: 80px;
+    font-weight: 800;
+    color:#1e1e1e;
+ }
+
+ p {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+ }
