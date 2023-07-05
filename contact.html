@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kayleigh Schmassmann</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayleigh Schmassmann Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+  <header>
     <nav>
-        <div class= "nav-wrapper">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+      <div class= "nav-wrapper">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <div class="contact-form-container">
-        <h2>Contact Me</h2>
+  </header> 
+
+  <!--Content for rest of contact page below-->
+
+  <Section id="contact-form">
+    <div class="content">
+      <h2>Contact Me</h2><br/>
         <form>
-            <label for="name">Full Name</label><br/>
-            <input type="text" id="name" name="Name" placeholder="Enter Your Full Name" required><br/>
-            <label for="email">Email</label><br/>
-            <input type="email" id="email" name="Email" placeholder="Enter Your email" required><br/>
-            <label for="message">Message</label><br/>
-            <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea><br/>
-            <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+          <label for="name">Full Name</label><br/>
+          <input type="text" id="name" name="Name" placeholder="Enter Your Full Name" required><br/>
+          <label for="email">Email</label><br/>
+          <input type="email" id="email" name="Email" placeholder="Enter Your email" required><br/>
+          <label for="message">Message</label><br/>
+          <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea><br/>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
         </form>
-    <div id="footer"></div>
-    <p>Connect:
-        <a href="https://www.linkedin.com/in/kayleigh-schmassmann-74829b57/">LinkedIn</a>
-    </p>
+    </div>  
+  </Section>
+
+  <footer> 
+    <div class="footer">
+        <p>&copy; Copyright 2023<br>Built by Kayleigh Schmassmann</p>
+    </div>
+  </footer>
 </body>
+</html>
