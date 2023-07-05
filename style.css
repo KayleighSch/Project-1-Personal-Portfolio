@@ -81,10 +81,17 @@ ul li a:hover {
     border-radius: 50%;
  }
 
+ /* About page styles*/
+ .about {
+   margin-left: 200px;
+   margin-right: 200px; 
+   text-align: center;
+ }
+
  /* Projects page styles*/
  .indented {
     text-indent: 60px;
-  }
+   }
 
  /* Contact page styles*/
   #contact-form h2 {
