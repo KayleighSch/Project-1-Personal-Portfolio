@@ -74,17 +74,67 @@ ul li a:hover {
     background-size: cover;
   }
 
+ /* Home page styles*/ 
 .profile-pic {
     float: left;
     margin: 100px;
     border-radius: 50%;
  }
 
+ /* Projects page styles*/
  .indented {
     text-indent: 60px;
   }
 
- /* Footer styles*/
+ /* Contact page styles*/
+  #contact-form h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 3px;
+ }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1e1e1e;
+  }
+
+  /* Footer styles*/
  #footer {
     background-color: #fff;
     position: relative;
